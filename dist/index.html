@@ -6,27 +6,31 @@
     <title>PyLearn - Landing Page</title>
 
     
-    <link rel="stylesheet" href="/pylearn-landing-page/assets/index-3f333c8b.css">
+    <link rel="stylesheet" href="/pylearn-landing-page/assets/index-ed507f9a.css">
   </head>
-  <body class="bg-[#22668D] max-w-7xl mx-auto font-jakarta">
+  <body class="bg-[#22668D] lg:max-w-7xl mx-auto font-jakarta">
     <!-- ! Announcement Bar Starts Here -->
     <div
-      class="py-4 bg-black text-white px-5 flex justify-center items-center gap-x-2"
+      class="py-4 bg-black text-white px-5 flex justify-center items-center gap-x-2 text-[11px] md:text-[15px] md:bg-red-500 lg:text-[14px] lg:bg-black"
     >
       <span
         >Skill Up Today With PyLearn - Most Trusted Python Learning Resource In
         The Planet</span
       >
-      <span> | </span>
-      <button title="Join now" class="hover:text-[#22668D]">
+      <span class="lg:block hidden"> | </span>
+      <button title="Join now" class="hover:text-[#22668D] lg:block hidden">
         Signup for PyHackathon (2023) 🚀⚡💪🏽
       </button>
     </div>
     <div class="px-5 py-5 bg-red-200">
       <!-- ! Header Section Starts Here -->
       <header>
-        <div class="flex justify-between">
-          <div class="flex items-center gap-x-3">
+        <div
+          class="lg:flex lg:flex-row lg:justify-between flex flex-col items-center gap-y-5"
+        >
+          <div
+            class="lg:flex lg:flex-row lg:items-center lg:gap-x-3 flex flex-col items-center"
+          >
             <span class="font-bold text-lg tracking-wider">Pylearn</span>
             <span class="font-light text-sm">Learn Python From Scratch</span>
           </div>
@@ -38,7 +42,10 @@
                 class="py-1 px-5 text-sm outline-none rounded-md ring-2 ring-offset-2 ring-[#22668D]/30 focus:ring-[#22668D]/100 hover:ring-[#22668D]/100"
               />
               <div class="absolute top-0 right-0 p-1.5 flex">
-                <a class="px-1.5 py-0.5 text-[9px] bg-[#FFCC70] rounded-md font-medium cursor-pointer text-black hover:bg-[#22668D] hover:text-white">Press enter</a>
+                <a
+                  class="px-1.5 py-0.5 text-[9px] bg-[#FFCC70] rounded-md font-medium cursor-pointer text-black hover:bg-[#22668D] hover:text-white"
+                  >Press enter</a
+                >
               </div>
             </div>
             <div>
@@ -51,25 +58,27 @@
           </div>
         </div>
 
-        <nav class="py-1 max-w-3xl mx-auto mt-5">
-          <ul class="flex justify-center bg-[#FFCC70] gap-x-3 py-2 rounded-xl">
+        <nav
+          class="py-1 lg:max-w-3xl lg:mx-auto lg:mt-5 max-w-xs mx-auto mt-4"
+        >
+          <ul class="lg:flex lg:flex-row justify-center bg-[#FFCC70] lg:gap-x-3 lg:py-2 lg:rounded-xl rounded flex flex-col items-center gap-x-1">
             <li
-              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1"
+              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1 lg:text-base text-[11px]"
             >
               Home
             </li>
             <li
-              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1"
+              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1 lg:text-base text-[11px]"
             >
               About PyLearn
             </li>
             <li
-              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1"
+              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1 lg:text-base text-[11px]"
             >
               Contact PyLearn
             </li>
             <li
-              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1"
+              class="bg-[#FFCC70]/70 hover:bg-[#22668D]/100 rounded-md cursor-pointer hover:text-white px-5 py-1 lg:text-base text-[11px]"
             >
               Sitemap
             </li>
@@ -79,17 +88,17 @@
 
       <!-- ! Main Hero Section Starts Here -->
       <section class="mt-5">
-        <div class="flex items-center justify-center gap-x-10">
+        <div class="lg:flex lg:items-center lg:justify-center lg:gap-x-0 flex items-center justify-center">
           <div>
-            <img src="/pylearn-landing-page/assets/main hero img-9d92a1aa.svg" class="w-80 h-auto" />
+            <img src="/pylearn-landing-page/assets/main hero img-9d92a1aa.svg" class="lg:w-80 lg:h-auto" />
           </div>
 
-          <div class="flex flex-col gap-y-8">
-            <div class="flex flex-col gap-y-6">
-              <h1 class="text-5xl font-bold">
-                Let's Learn Python <br />With PyLearn 🐍
+          <div class="lg:flex lg:flex-col lg:justify-start lg:items-start lg:gap-y-8 flex flex-col gap-y-5 items-center">
+            <div class="lg:flex lg:flex-col lg:gap-y-6 flex flex-col gap-y-2">
+              <h1 class="lg:text-5xl sm:text-4xl text-2xl tracking-tighter font-bold text-center lg:text-start">
+                Let's Learn Python <br>With <span class="text-[#22668D] lg:antialiased lg:mx-3">PyLearn</span> 🐍
               </h1>
-              <span class="text-[#22668D] font-light"
+              <span class="text-[#22668D] font-light text-xs text-center lg:text-start lg:text-[15px] tracking-normal"
                 >PyLearn helps you to elevate your python skills to next level.
                 <br />
                 A New universe to learn Python easily and effortlessly without
@@ -99,7 +108,7 @@
             <div>
               <button
                 title="Start learning today"
-                class="bg-[#FFCC70] px-5 py-2 rounded-lg hover:bg-[#22668D] hover:text-white"
+                class="bg-[#FFCC70] px-5 py-2 rounded-lg hover:bg-[#22668D] hover:text-white lg:text-base text-sm lg:font-semibold font-medium"
               >
                 Register As a Developer.py
               </button>
@@ -111,8 +120,8 @@
 
     <!-- ! Python Statistics Starts Here -->
     <section class="bg-[#22668D] px-5 py-10 relative">
-      <div class="flex justify-center items-center gap-x-8">
-        <div class="flex items-center gap-x-3">
+      <div class="lg:flex lg:justify-center lg:items-center lg:flex-row lg:gap-x-8 flex justify-center items-center gap-y-5 flex-col">
+        <div class="lg:flex lg:items-center lg:gap-x-3 lg:flex-row flex flex-col justify-center items-center">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,12 +135,12 @@
               />
             </svg>
           </div>
-          <div class="flex gap-x-2 flex-col text-white leading-tight">
+          <div class="lg:flex lg:gap-x-2 lg:flex-col lg:items-start text-white leading-tight flex flex-col items-center">
             <span class="font-light">When Python Developed?</span>
             <span class="font-semibold">Developed In 1989.</span>
           </div>
         </div>
-        <div class="flex items-center gap-x-3">
+        <div class="lg:flex lg:items-center lg:gap-x-3 flex lg:flex-row flex-col justify-center items-center text-center">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -145,12 +154,12 @@
               />
             </svg>
           </div>
-          <div class="flex gap-x-2 flex-col text-white leading-tight">
+          <div class="lg:flex lg:gap-x-2 lg:flex-col text-white leading-tight flex flex-col items-center">
             <span class="font-light">Does Google Use Python?</span>
             <span class="font-semibold">Yes, As Official Language.</span>
           </div>
         </div>
-        <div class="flex items-center gap-x-3">
+        <div class="lg:flex lg:items-center lg:gap-x-3 flex lg:flex-row flex-col justify-center items-center">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -164,12 +173,12 @@
               />
             </svg>
           </div>
-          <div class="flex gap-x-2 flex-col text-white leading-tight">
-            <span class="font-light">How Long Does Tak to Master It?</span>
+          <div class="lg:flex lg:gap-x-2 lg:flex-col lg:items-start text-white leading-tight flex flex-col items-center">
+            <span class="font-light">How Long Does Take to Master Python?</span>
             <span class="font-semibold">3 - 6 Months With PyLearn.</span>
           </div>
         </div>
-        <div class="flex items-center gap-x-3">
+        <div class="lg:flex lg:items-center lg:gap-x-3 flex lg:flex-row flex-col justify-center items-center">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -183,18 +192,18 @@
               />
             </svg>
           </div>
-          <div class="flex gap-x-2 flex-col text-white leading-tight">
+          <div class="lg:flex lg:gap-x-2 lg:flex-col text-white leading-tight flex flex-col items-center">
             <span class="font-light">Majority of Python Users</span>
             <span class="font-semibold">Ages between 21 and 29.</span>
           </div>
         </div>
       </div>
       <div
-        class="max-w-xs bg-[#FFCC70] p-2 rounded text-center absolute top-[-79px] left-0 ring-4 ring-offset-0 ring-[#22668D]"
+        class="lg:max-w-xs bg-[#FFCC70] lg:p-2 lg:rounded lg:text-center lg:absolute lg:top-[-98px] lg:left-0 lg:ring-2 lg:ring-offset-0 lg:ring-[#22668D] lg:block sm:hidden"
       >
-        <div class="flex flex-col gap-y-2">
-          <div class="flex items-center justify-center gap-x-1">
-            <div>
+        <div class="lg:flex lg:flex-col lg:gap-y-2 flex gap-x-2 justify-center items-center px-2 py-1 lg:my-0 my-5">
+          <div class="lg:flex lg:items-center lg:justify-center lg:gap-x-1">
+            <div class="hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -221,7 +230,7 @@
               >
             </div>
           </div>
-          <span class="text-xs font-medium text-gray-600"
+          <span class="text-sm font-semibold text-gray-600"
             >Python developers makes <br />$13,250 - $24,734 Annually</span
           >
         </div>
@@ -230,7 +239,7 @@
 
     <!-- ! Why Should We Learn Section Starts Here -->
     <section class="px-5 py-10 bg-[#FFCC70]">
-      <div class="flex items-center justify-center gap-x-10">
+      <div class="lg:flex lg:items-center lg:justify-center lg:flex-row lg:gap-x-10 flex flex-col justify-center items-center gap-y-2">
         <div>
           <div>
             <svg
@@ -245,9 +254,9 @@
               />
             </svg>
           </div>
-          <h2 class="text-3xl font-bold">Why Should We <br />Learn Python?</h2>
+          <h2 class="lg:text-3xl lg:font-bold text-4xl font-bold">Why Should We <br />Learn Python?</h2>
         </div>
-        <div class="max-w-xl">
+        <div class="lg:max-w-xl max-w-sm lg:mt-0 mt-2">
           <!-- <img src="./public/assets/new hero img.svg" class="w-56"> -->
           <h2 class="text-lg font-light">
             Python's simplicity and readability make it the perfect choice for
@@ -258,9 +267,9 @@
         </div>
       </div>
 
-      <div class="flex gap-x-4 justify-center my-10">
+      <div class="lg:flex lg:flex-row lg:gap-x-2 flex flex-col justify-center items-center gap-y-2 mt-8">
         <div
-          class="bg-[#22668D] max-w-xs px-5 py-5 flex gap-x-4 text-white rounded-md border-2 shadow-xl"
+          class="bg-[#22668D] max-w-xs px-5 py-5 flex gap-x-4 text-white rounded-md border-2 shadow-xl cursor-default"
         >
           <div
             class="bg-[#FFCC70] w-10 h-10 rounded flex items-center justify-center"
@@ -280,17 +289,16 @@
           <div class="leading-none flex flex-col gap-y-1">
             <h2 class="font-semibold text-lg">Learn Efficiently</h2>
             <span class="font-normal text-sm"
-              >Learn exactly what you need to achieve your goal - and nothing
-              extra.</span
+              >Learn exactly what you need to achieve your goal.</span
             >
           </div>
         </div>
 
         <div
-          class="bg-[#22668D] max-w-xs px-5 py-5 flex gap-x-4 text-white rounded-md border-2 shadow-xl"
+          class="bg-[#22668D] max-w-xs px-5 py-5 flex gap-x-4 text-white rounded-md border-2 shadow-xl cursor-default"
         >
           <div
-            class="bg-[#FFCC70] w-10 h-10 rounded flex items-center justify-center flex-1"
+            class="bg-[#FFCC70] w-10 h-10 rounded flex items-center justify-center"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -313,7 +321,7 @@
         </div>
 
         <div
-          class="bg-[#22668D] max-w-xs px-5 py-5 flex gap-x-4 text-white rounded-md border-2 shadow-xl"
+          class="bg-[#22668D] max-w-xs px-5 py-5 flex gap-x-4 text-white rounded-md border-2 shadow-xl cursor-default"
         >
           <div
             class="bg-[#FFCC70] w-10 h-10 rounded flex items-center justify-center flex-1"
@@ -343,7 +351,7 @@
 
     <!-- ! Basic Python Contents -->
     <section class="px-10 py-10 bg-gray-200">
-      <div class="flex flex-col gap-y-2">
+      <div class="lg:flex lg:flex-col lg:gap-y-2 flex flex-col gap-y-3">
         <h2 class="font-bold text-3xl">Python for Beginners</h2>
         <span class="font-medium text-lg">Overview</span>
         <span class="font-light text-[16px]"
@@ -353,7 +361,7 @@
         >
       </div>
 
-      <div class="flex gap-x-0 items-center">
+      <div class="lg:flex lg:gap-x-0 lg:items-center">
         <div class="my-10 flex-1">
           <div
             class="px-5 py-3 border-2 border-gray-300 rounded-tr-lg rounded-tl-lg max-w-md"
@@ -530,7 +538,7 @@
       <div class="w-full h-px bg-gray-500/20 my-10"></div>
 
       <!-- ! Getting Started With Python Section -->
-      <div class="flex gap-x-0 items-center">
+      <div class="lg:flex lg:gap-x-0 lg:items-center">
         <div class="my-10 flex-1">
           <div
             class="px-5 py-3 border-2 border-gray-300 rounded-tr-lg rounded-tl-lg max-w-md"
@@ -707,7 +715,7 @@
       <div class="w-full h-px bg-gray-500/20 my-10"></div>
 
       <!-- ! Python Eco System -->
-      <div class="flex gap-x-0 items-center">
+      <div class="lg:flex lg:gap-x-0 lg:items-center">
         <div class="my-10 flex-1">
           <div
             class="px-5 py-3 border-2 border-gray-300 rounded-tr-lg rounded-tl-lg max-w-md"
@@ -882,18 +890,124 @@
       </div>
     </section>
 
+    <!-- ! Our Lead Contributors -->
+    <section class="px-5 py-10 bg-[#FFCC70]">
+      <div class="lg:flex lg:justify-center lg:gap-x-10">
+        <div class="flex flex-col gap-y-4">
+          <div>
+            <h2 class="font-medium text-xl">Our Worldclass instructors</h2>
+            <span class="font-black text-3xl"
+              >Learn from real-world experts</span
+            >
+          </div>
+
+          <div class="max-w-lg lg:flex lg:flex-col lg:gap-y-4">
+            <p>
+              Our Lead instructors and contributors have been in your shoes, So
+              they know how to tackle your most problems for free. I heard this
+              quote on one of colleague's status 
+            </p>
+            <p>"<span class="font-semibold text-[#22668D]">Mistakes make clever</span>" that
+              sounds intriguing and at the same time it's a fact. Lots of
+              contributors were having this PyLearn community as their side
+              projects to showcase their Python skills and sharpen the career
+              path.</p>
+          </div>
+
+          <div class="flex gap-y-1.5 flex-col">
+            <div>
+              <button
+                class="py-0.5 px-4 bg-[#22668D] text-white hover:bg-[#22668D] hover:text-[#FFCC70] rounded-md"
+              >
+                Meet Our Instructors Here
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-cols-2 lg:gap-4 lg:justify-items-center grid grid-cols-2 lg:relative lg:mt-0 mt-16">
+          <div class="lg:w-56 lg:h-56 bg-black/40 rounded-xl absolute top-28"></div>
+
+          <div class="mt-2 relative">
+            <img
+              src="/pylearn-landing-page/assets/anbu-af58c70c.png"
+              class="lg:w-48 w-44 rounded-lg contrast-100"
+            />
+            <div
+              class="lg:flex lg:flex-col lg:gap-y-0 leading-tight bg-[#22668D] w-fit lg:px-2.5 lg:py-1.5 lg:rounded-lg absolute lg:top-[-35px] lg:left-[-40px] lg:drop-shadow-xl z-10 flex flex-col px-2 py-1 rounded-md top-[-2px] right-5"
+            >
+              <span class="font-semibold text-white lg:text-[15px] text-[12px] tracking-tight"
+                >Anbu Selvan</span
+              >
+              <span class="lg:text-[9px] text-[8px] text-[#FFCC70]">Lead Instructor</span>
+            </div>
+          </div>
+
+          <div class="my-10 relative">
+            <img
+              src="/pylearn-landing-page/assets/shajid-new-a74f4189.png"
+              class="w-48 h-48 object-cover rounded-lg contrast-100"
+            />
+            <div
+              class="lg:flex lg:flex-col lg:gap-y-0 leading-tight bg-[#22668D] w-fit lg:px-2.5 lg:py-1.5 lg:rounded-lg absolute lg:top-[-30px] lg:right-[-10px] xl:right[-50px] drop-shadow-xl top-0 right-0 flex flex-col px-2 py-1 rounded-md"
+            >
+              <span class="font-semibold text-white lg:text-[15px] text-[12px] tracking-tight"
+                >Shajid Shafee</span
+              >
+              <span class="lg:text-[9px] text-[8px] text-[#FFCC70]"
+                >Full Stack Engineer</span
+              >
+            </div>
+          </div>
+
+          <div class="my-[-80px] relative">
+            <img
+              src="/pylearn-landing-page/assets/Mushkir-a664a5a9.png"
+              class="w-48 h-48 object-cover rounded-lg"
+            />
+            <div
+              class="lg:flex lg:flex-col lg:gap-y-0 leading-tight bg-[#22668D] w-fit lg:px-2.5 lg:py-1.5 lg:rounded-lg absolute lg:top-44 lg:left-[-30px] lg:drop-shadow-xl flex flex-col px-2 py-1 rounded-md top-44 left-[-10px]"
+            >
+              <span class="font-semibold text-white lg:text-[15px] text-[12px] tracking-tight"
+                >Mushkir</span
+              >
+              <span class="lg:text-[9px] text-[8px] text-[#FFCC70]"
+                >Full Stack Engineer</span
+              >
+            </div>
+          </div>
+
+          <div class="mt-[-25px] relative">
+            <img
+              src="/pylearn-landing-page/assets/abirami2-e67d512c.jpeg"
+              class="w-48 rounded-lg object-cover contrast-100 brightness-110"
+            />
+            <div
+              class="lg:flex lg:flex-col lg:gap-y-0 leading-tight bg-[#22668D] w-fit lg:px-2.5 lg:py-1.5 lg:rounded-lg absolute lg:bottom-[-10px] lg:left-[-50px] drop-shadow-xl flex flex-col px-2 py-1 bottom-0 left-[-10px] rounded-md"
+            >
+              <span class="font-semibold text-white lg:text-[15px] text-[12px] tracking-tight"
+                >Abirami</span
+              >
+              <span class="lg:text-[9px] text-[8px] text-[#FFCC70]"
+                >Full Stack Engineer</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ! Footer Section Started Here -->
     <section class="px-10 py-10 bg-black text-white">
-      <div class="flex gap-x-4 justify-center items-start">
-        <div class="flex flex-col gap-y-5 flex-1">
-          <div class="font-bold tracking-wide">
+      <div class="lg:flex lg:gap-x-4 lg:justify-center lg:items-start">
+        <div class="lg:flex lg:flex-col lg:gap-y-5 lg:flex-1 flex flex-col gap-y-4">
+          <div class="font-bold lg:tracking-wide tracking-wider">
             <span>PYLEARN - A Python Learning Curriculum</span>
           </div>
           <div class="max-w-sm">
             <span class="text-sm"
-              >PyLearn is a community based online curriculum for specifically to
-              Python. You can master python in really simple way and also hands on
-              experience with beginner to advanced projects.</span
+              >PyLearn is a community based online curriculum for specifically
+              to Python. You can master python in really simple way and also
+              hands on experience with beginner to advanced projects.</span
             >
           </div>
           <div
@@ -914,7 +1028,7 @@
           </div>
         </div>
 
-        <div class="flex gap-x-10">
+        <div class="lg:flex lg:gap-x-10 flex gap-x-2 lg:mt-0 mt-10">
           <div class="flex flex-col gap-y-2">
             <div class="flex flex-col gap-y-2">
               <div class="font-bold text-[#FFCC70]">
@@ -926,19 +1040,35 @@
                 <li>Python Advanced</li>
               </ul>
             </div>
-  
+
             <div class="flex flex-col gap-y-2">
               <div class="font-bold text-[#FFCC70]">
                 <h3>Who Built this? 🫨</h3>
               </div>
               <ul class="text-sm text-[#FFFADD] cursor-pointer">
-                <li><a class="hover:text-white" href="https://www.linkedin.com/in/shajidshafee/">Shajid Shafee (linkedin)</a></li>
-                <li><a class="hover:text-white" href="https://github.com/mshajid">My GitHub Repo</a></li>
-                <li><a class="hover:text-white" href="https://www.instagram.com/shajid.shafee/">Instagram</a></li>
+                <li>
+                  <a
+                    class="hover:text-white"
+                    href="https://www.linkedin.com/in/shajidshafee/"
+                    >Shajid Shafee (linkedin)</a
+                  >
+                </li>
+                <li>
+                  <a class="hover:text-white" href="https://github.com/mshajid"
+                    >My GitHub Repo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-white"
+                    href="https://www.instagram.com/shajid.shafee/"
+                    >Instagram</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
-  
+
           <div class="flex flex-col gap-y-2">
             <div class="font-bold text-[#FFCC70]">
               <h3>PyLearn Operations</h3>
